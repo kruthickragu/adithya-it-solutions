@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Adithya IT Solutions.</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Adithya IT Solutions (OPC) Pvt Ltd. - Premium Training & Placement Consultancy</title>
+  <meta name="description" content="Leading training and placement consultancy in Salem. Specialized in IT jobs, Banking, BPO, and Engineering placements. Call HR directly for immediate assistance.">
+  <meta name="keywords" content="training, placement, consultancy, IT jobs, banking jobs, BPO jobs, engineering jobs, Salem">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -23,9 +23,308 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  
+  <!-- Mobile Responsive Styles -->
+  <style>
+    /* Mobile Navigation Styles */
+    @media (max-width: 1199px) {
+      .mobile-call-btn {
+        background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+        color: #333 !important;
+        font-weight: 600;
+        padding: 8px 16px !important;
+        border-radius: 25px;
+        margin: 10px 0;
+        text-align: center;
+        display: block;
+      }
+      
+      .navmenu ul {
+        padding: 20px 0;
+      }
+      
+      .navmenu ul li {
+        margin: 10px 0;
+      }
+    }
+    
+    /* Mobile Hero Section */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.5rem !important;
+        line-height: 1.3 !important;
+      }
+      
+      .hero p {
+        font-size: 1.1rem !important;
+      }
+      
+      .hero .btn {
+        padding: 12px 20px !important;
+        font-size: 1rem !important;
+        margin: 5px !important;
+      }
+      
+      .hero-card {
+        margin-top: 30px;
+        padding: 20px !important;
+      }
+      
+      .hero-badge {
+        font-size: 0.8rem !important;
+        padding: 6px 15px !important;
+      }
+    }
+    
+    /* Mobile Services Section */
+    @media (max-width: 768px) {
+      .service-card {
+        margin-bottom: 20px;
+      }
+      
+      .service-card img {
+        height: 180px !important;
+      }
+      
+      .service-card h4 {
+        font-size: 1.3rem !important;
+      }
+      
+      .service-card ul li {
+        font-size: 1rem !important;
+        margin-bottom: 8px !important;
+      }
+    }
+    
+    /* Mobile Trust Indicators */
+    @media (max-width: 768px) {
+      .trust-item {
+        margin-bottom: 20px;
+        padding: 20px !important;
+      }
+      
+      .trust-item h2 {
+        font-size: 2rem !important;
+      }
+      
+      .trust-item .trust-icon i {
+        font-size: 2.5rem !important;
+      }
+    }
+    
+    /* Mobile About Section */
+    @media (max-width: 768px) {
+      .about h2 {
+        font-size: 2rem !important;
+      }
+      
+      .about p {
+        font-size: 1rem !important;
+      }
+      
+      .feature-item {
+        margin-bottom: 15px;
+      }
+    }
+    
+    /* Mobile Why Choose Us */
+    @media (max-width: 768px) {
+      .why-card {
+        margin-bottom: 20px;
+        padding: 20px !important;
+      }
+      
+      .why-card h4 {
+        font-size: 1.2rem !important;
+      }
+      
+      .why-card p {
+        font-size: 0.9rem !important;
+      }
+    }
+    
+    /* Mobile Call to Action */
+    @media (max-width: 768px) {
+      .cta-section h2 {
+        font-size: 2rem !important;
+      }
+      
+      .cta-section p {
+        font-size: 1rem !important;
+      }
+      
+      .cta-section .btn {
+        padding: 12px 20px !important;
+        font-size: 1rem !important;
+        margin: 5px !important;
+      }
+    }
+    
+    /* Mobile Footer */
+    @media (max-width: 768px) {
+      .footer-about {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      
+      .footer-contact p {
+        font-size: 14px !important;
+      }
+      
+      .footer-contact a {
+        font-size: 16px !important;
+      }
+    }
+    
+    /* Custom Modal Size */
+    .modal-dialog.modal-md {
+      max-width: 500px !important;
+    }
+    
+    /* Mobile Modal */
+    @media (max-width: 768px) {
+      .modal-dialog {
+        margin: 10px;
+        max-width: 95% !important;
+      }
+      
+      .modal-header {
+        padding: 15px !important;
+      }
+      
+      .modal-title {
+        font-size: 1.3rem !important;
+      }
+      
+      .modal-body {
+        padding: 15px !important;
+      }
+      
+      .form-control, .form-select {
+        padding: 10px !important;
+        font-size: 16px !important; /* Prevents zoom on iOS */
+      }
+      
+      .btn-lg {
+        padding: 12px 25px !important;
+        font-size: 0.95rem !important;
+      }
+    }
+    
+    /* Form Validation Styles */
+    .form-control.is-valid {
+      border-color: #28a745;
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='m2.3 6.73.94-.94 3.03-3.03-1.06-1.06-3.03 3.03-.94.94z'/%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: right calc(0.375em + 0.1875rem) center;
+      background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+    }
+    
+    .form-control.is-invalid {
+      border-color: #dc3545;
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath d='m5.8 4.6 1.4 1.4m0-1.4-1.4 1.4'/%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: right calc(0.375em + 0.1875rem) center;
+      background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+    }
+    
+    /* Hide main content initially */
+    .main {
+      display: none;
+    }
+    
+    /* Blur entire site until form is submitted */
+    .site-blur {
+      filter: blur(15px);
+      opacity: 0.1;
+      pointer-events: none;
+      user-select: none;
+      transition: all 0.5s ease;
+    }
+
+    /* Blur modal backdrop - subtle blur */
+    .modal-backdrop {
+      backdrop-filter: blur(15px) !important;
+      -webkit-backdrop-filter: blur(15px) !important;
+      background-color: rgba(255, 255, 255, 0.1) !important;
+      filter: none !important;
+      opacity: 1 !important;
+    }
+    
+    .site-unblur {
+      filter: blur(0);
+      opacity: 1;
+      pointer-events: auto;
+      user-select: auto;
+    }
+    
+    /* Success Toast Styles */
+    .success-toast {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 9999;
+      background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+      color: white;
+      padding: 20px 25px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(40, 167, 69, 0.3);
+      font-weight: 600;
+      font-size: 1.1rem;
+      transform: translateX(400px);
+      transition: transform 0.5s ease;
+      max-width: 350px;
+      display: none;
+    }
+    
+    .success-toast.show {
+      transform: translateX(0);
+    }
+    
+    .success-toast .toast-icon {
+      font-size: 1.5rem;
+      margin-right: 10px;
+    }
+    
+    /* Spinner Animation */
+    .spinner {
+      animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    /* Disabled button styles */
+    .btn:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+    }
+    
+    @media (max-width: 768px) {
+      .success-toast {
+        top: 10px;
+        right: 10px;
+        left: 10px;
+        max-width: none;
+        transform: translateY(-100px);
+      }
+      
+      .success-toast.show {
+        transform: translateY(0);
+      }
+    }
+  </style>
 </head>
 
 <body class="index-page">
@@ -34,576 +333,400 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Adithya IT Solutions.</h1>
+        <h1 class="sitename">Adithya IT Solutions (OPC) Pvt Ltd.</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home<br></a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
+          <li><a href="index.html" class="active">Home</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li class="d-xl-none"><a href="tel:+917845095444" class="mobile-call-btn">📞 Call HR Now</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="courses.html">Get Started</a>
+      <a class="btn-getstarted d-none d-xl-inline-block" href="tel:+917845095444">📞 Call HR Now</a>
 
     </div>
   </header>
 
-  <main class="main">
+  <main class="main site-blur" id="mainContent">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
-
-      <div class="container">
-        <h2 data-aos="fade-up" data-aos-delay="100">Learning Today,<br>Leading Tomorrow</h2>
-        <p data-aos="fade-up" data-aos-delay="200">"We are a team of talented staff dedicated to helping students achieve their dreams and secure a place in their dream job." </p>
-        <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-          <a href="courses.html" class="btn-get-started">Get Started</a>
+    <section id="hero" class="hero section dark-background" style="position: relative; overflow: hidden;">
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" style="filter: brightness(0.7);">
+      <div class="hero-overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(135deg, rgba(102,126,234,0.8) 0%, rgba(118,75,162,0.8) 100%);"></div>
+      <div class="container" style="position: relative; z-index: 2;">
+        <div class="row align-items-center min-vh-100">
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+            <div class="hero-badge mb-4" style="display: inline-block; background: rgba(255,255,255,0.2); backdrop-filter: blur(10px); padding: 8px 20px; border-radius: 25px; border: 1px solid rgba(255,255,255,0.3);">
+              <span style="color: white; font-weight: 600; font-size: 0.9rem;">
+                <i class="fas fa-star" style="color: #FFD700; margin-right: 8px;"></i> Training & Placement Services
+              </span>
+            </div>
+            <h1 style="font-family: 'Playfair Display', serif; font-size: 4rem; font-weight: 800; margin-bottom: 30px; color: white; line-height: 1.2; text-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+               Training & Placement Consultancy
+            </h1>
+            <p style="font-family: 'Inter', sans-serif; font-size: 1.4rem; margin-bottom: 40px; color: rgba(255,255,255,0.95); line-height: 1.7; font-weight: 300;">
+              <i class="fas fa-crown" style="color: #FFD700; margin-right: 10px;"></i>
+              Transform your career with our training programs and guaranteed placement assistance. 
+              Specialized in IT, Banking, BPO, and Engineering sectors with industry-leading success rates.
+            </p>
+            <div class="d-flex flex-wrap gap-4" data-aos="fade-up" data-aos-delay="300">
+              <a href="tel:+917845095444" class="btn btn-primary btn-lg" style="font-weight: 700; padding: 18px 35px; border-radius: 50px; background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%); border: none; color: #333; box-shadow: 0 10px 25px rgba(255,215,0,0.3); transition: all 0.3s ease; font-size: 1.1rem;">
+                <i class="fas fa-phone-alt" style="margin-right: 10px;"></i>Call HR: +91 7845095444
+              </a>
+              <a href="mailto:uniquekalai193@gmail.com" class="btn btn-outline-light btn-lg" style="font-weight: 600; padding: 18px 35px; border-radius: 50px; border: 2px solid rgba(255,255,255,0.8); backdrop-filter: blur(10px); transition: all 0.3s ease; font-size: 1.1rem;">
+                <i class="fas fa-envelope" style="margin-right: 10px;"></i>Email Us
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-left" data-aos-delay="200">
+            <div class="hero-card p-5" style="background: rgba(255,255,255,0.95); border-radius: 25px; backdrop-filter: blur(20px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); border: 1px solid rgba(255,255,255,0.2);">
+              <div class="text-center mb-4">
+                <i class="fas fa-gem" style="font-size: 3rem; color: #667eea; margin-bottom: 15px;"></i>
+                <h3 style="color: #333; margin-bottom: 20px; font-weight: 700; font-family: 'Playfair Display', serif;">Quick Contact</h3>
+      </div>
+              <div class="contact-item mb-4">
+                <div class="d-flex align-items-center mb-2">
+                  <i class="fas fa-phone-alt" style="color: #667eea; margin-right: 12px; font-size: 1.2rem;"></i>
+                  <span style="color: #666; font-weight: 600;">HR Contact</span>
+                </div>
+                <a href="tel:+917845095444" style="color: #333; text-decoration: none; font-weight: 700; font-size: 1.1rem; display: block; padding-left: 35px;">+91 7845095444</a>
+              </div>
+              <div class="contact-item mb-4">
+                <div class="d-flex align-items-center mb-2">
+                  <i class="fas fa-envelope" style="color: #667eea; margin-right: 12px; font-size: 1.2rem;"></i>
+                  <span style="color: #666; font-weight: 600;">Email</span>
+                </div>
+                <a href="mailto:uniquekalai193@gmail.com" style="color: #333; text-decoration: none; font-weight: 700; font-size: 1.1rem; display: block; padding-left: 35px;">uniquekalai193@gmail.com</a>
+              </div>
+              <div class="contact-item">
+                <div class="d-flex align-items-center mb-2">
+                  <i class="fas fa-map-marker-alt" style="color: #667eea; margin-right: 12px; font-size: 1.2rem;"></i>
+                  <span style="color: #666; font-weight: 600;">Address</span>
+                </div>
+                <p style="color: #333; font-size: 14px; margin: 0; padding-left: 35px; line-height: 1.5;">235/5 Ans Dhivyam opposite narasothipatti, Salem 636004</p>
+              </div>
+              </div>
+          </div>
         </div>
       </div>
+    </section>
 
-    </section><!-- /Hero Section -->
+    <!-- Trust Indicators Section -->
+    <section class="py-5" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); position: relative; overflow: hidden;">
+      <div class="trust-pattern" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at 25% 25%, rgba(255,255,255,0.1) 0%, transparent 50%), radial-gradient(circle at 75% 75%, rgba(255,255,255,0.1) 0%, transparent 50%); opacity: 0.3;"></div>
+      <div class="container" style="position: relative; z-index: 2;">
+        <div class="text-center mb-5">
+          <h2 style="font-family: 'Playfair Display', serif; color: white; font-size: 2.5rem; font-weight: 700; margin-bottom: 15px;">
+            <i class="fas fa-trophy" style="color: #FFD700; margin-right: 15px;"></i>Our Success Metrics
+          </h2>
+          <p style="color: rgba(255,255,255,0.9); font-size: 1.2rem; font-weight: 300;">Trusted by thousands of candidates and leading companies</p>
+    </div>
+        <div class="row text-center">
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="trust-item" style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 20px; padding: 30px; border: 1px solid rgba(255,255,255,0.2); transition: transform 0.3s ease;">
+              <div class="trust-icon mb-3">
+                <i class="fas fa-users" style="font-size: 3rem; color: #FFD700;"></i>
+            </div>
+              <h2 style="color: white; font-size: 2.5rem; font-weight: 800; margin-bottom: 10px; font-family: 'Playfair Display', serif;">500+</h2>
+              <p style="color: rgba(255,255,255,0.9); font-size: 1.1rem; font-weight: 600;">Candidates Placed</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="trust-item" style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 20px; padding: 30px; border: 1px solid rgba(255,255,255,0.2); transition: transform 0.3s ease;">
+              <div class="trust-icon mb-3">
+                <i class="fas fa-chart-line" style="font-size: 3rem; color: #FFD700;"></i>
+            </div>
+              <h2 style="color: white; font-size: 2.5rem; font-weight: 800; margin-bottom: 10px; font-family: 'Playfair Display', serif;">95%</h2>
+              <p style="color: rgba(255,255,255,0.9); font-size: 1.1rem; font-weight: 600;">Success Rate</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="trust-item" style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 20px; padding: 30px; border: 1px solid rgba(255,255,255,0.2); transition: transform 0.3s ease;">
+              <div class="trust-icon mb-3">
+                <i class="fas fa-building" style="font-size: 3rem; color: #FFD700;"></i>
+            </div>
+              <h2 style="color: white; font-size: 2.5rem; font-weight: 800; margin-bottom: 10px; font-family: 'Playfair Display', serif;">100+</h2>
+              <p style="color: rgba(255,255,255,0.9); font-size: 1.1rem; font-weight: 600;">Partner Companies</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="trust-item" style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 20px; padding: 30px; border: 1px solid rgba(255,255,255,0.2); transition: transform 0.3s ease;">
+              <div class="trust-icon mb-3">
+                <i class="fas fa-headset" style="font-size: 3rem; color: #FFD700;"></i>
+            </div>
+              <h2 style="color: white; font-size: 2.5rem; font-weight: 800; margin-bottom: 10px; font-family: 'Playfair Display', serif;">24/7</h2>
+              <p style="color: rgba(255,255,255,0.9); font-size: 1.1rem; font-weight: 600;">HR Support</p>
+            </div>
+          </div>
+            </div>
+            </div>
+    </section>
 
     <!-- About Section -->
-    <section id="about" class="about section">
-
+    <section id="about" class="about section py-5">
       <div class="container">
-
-        <div class="row gy-4">
-
-            <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/about.jpg" class="img-fluid" alt="Aadhitya IT Solutions">
-            </div>
-          
-            <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
-              <h3>Welcome to Aadhitya IT Solutions Pvt. Ltd.</h3>
-              <p class="fst-italic">
-                At Aadhitya IT Solutions Pvt. Ltd., we are committed to empowering individuals by providing top-notch training and placement services, helping them achieve their career goals in various sectors including IT, Banking, BPO, and more.
-              </p>
-              <ul>
-                <li><i class="bi bi-check-circle"></i> <span>Specialized training programs for IT sector jobs, including software development, data science, and more.</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>Expert guidance for securing banking jobs in top financial institutions.</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>Comprehensive training for customer service roles in Call Centers & BPOs, both domestically and internationally.</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>Core mechanical and electrical engineering jobs with hands-on training for technical excellence.</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>Support for domestic and international job placements to help you secure your dream role anywhere.</span></li>
-              </ul>
-              <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-            </div>
-          
+        <div class="row align-items-center">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src="assets/img/about.jpg" class="img-fluid rounded" alt="Adithya IT Solutions">
           </div>
-          
-
+          <div class="col-lg-6" data-aos="fade-left">
+            <h2 style="font-size: 2.5rem; font-weight: 700; color: #333; margin-bottom: 30px;">
+              Your Trusted Partner for Career Success
+            </h2>
+            <p style="font-size: 1.1rem; color: #666; line-height: 1.8; margin-bottom: 30px;">
+              At Adithya IT Solutions (OPC) Pvt Ltd., we are committed to transforming careers through comprehensive training and strategic placement services. Our proven track record and industry partnerships ensure your success in the competitive job market.
+            </p>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <div class="feature-item d-flex align-items-center">
+                  <i class="bi bi-check-circle-fill text-success me-3" style="font-size: 1.5rem;"></i>
+                  <span style="font-weight: 500;">Expert Training Programs</span>
+                </div>
+            </div>
+              <div class="col-md-6 mb-3">
+                <div class="feature-item d-flex align-items-center">
+                  <i class="bi bi-check-circle-fill text-success me-3" style="font-size: 1.5rem;"></i>
+                  <span style="font-weight: 500;">Guaranteed Placements</span>
+            </div>
+          </div>
+              <div class="col-md-6 mb-3">
+                <div class="feature-item d-flex align-items-center">
+                  <i class="bi bi-check-circle-fill text-success me-3" style="font-size: 1.5rem;"></i>
+                  <span style="font-weight: 500;">Industry Partnerships</span>
+                </div>
+            </div>
+              <div class="col-md-6 mb-3">
+                <div class="feature-item d-flex align-items-center">
+                  <i class="bi bi-check-circle-fill text-success me-3" style="font-size: 1.5rem;"></i>
+                  <span style="font-weight: 500;">24/7 HR Support</span>
+            </div>
+          </div>
+            </div>
+            <div class="mt-4">
+              <a href="tel:+917845095444" class="btn btn-primary btn-lg me-3">
+                📞 Call HR Now
+              </a>
+              <a href="contact.html" class="btn btn-outline-primary btn-lg">
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
 
-    </section><!-- /About Section -->
-
-    <!-- Counts Section -->
-    <section id="counts" class="section counts light-background">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Students</p>
+    <!-- Services Section -->
+    <section class="py-5" style="background: #f8f9fa;">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 style="font-size: 2.5rem; font-weight: 700; color: #333; margin-bottom: 20px;">
+            Our Training & Placement Services
+          </h2>
+          <p style="font-size: 1.2rem; color: #666; max-width: 600px; margin: 0 auto;">
+            Comprehensive training programs designed to make you job-ready with guaranteed placement assistance
+          </p>
+    </div>
+  
+                 <div class="row g-4">
+           <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
+             <div class="service-card h-100" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.15); transition: all 0.4s ease; overflow: hidden; border: 1px solid rgba(255,255,255,0.1);">
+               <img src="assets/img/c1.png" class="img-fluid" alt="IT Jobs Training" style="width: 100%; height: 250px; object-fit: cover;">
+               <div class="p-5" style="background: rgba(255,255,255,0.95);">
+                 <h4 class="text-center mb-4" style="font-weight: 700; font-size: 1.5rem; color: #333; font-family: 'Playfair Display', serif;">
+                   <i class="fas fa-laptop-code" style="color: #667eea; margin-right: 10px;"></i>IT Jobs Training
+                 </h4>
+                 <ul style="list-style: none; padding: 0;">
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">🚀 Full Stack Development</li>
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">🐍 Data Analysis & Python</li>
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">☕ Java Programming</li>
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">☁️ AWS Cloud Computing</li>
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">🤖 Machine Learning</li>
+                 </ul>
+                 <div class="text-center mt-4">
+                   <a href="tel:+917845095444" class="btn btn-primary btn-lg" style="font-weight: 600; padding: 12px 30px; border-radius: 25px; box-shadow: 0 5px 15px rgba(0,123,255,0.3);">📞 Call for Details</a>
             </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="64" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Courses</p>
+          </div>
             </div>
-          </div><!-- End Stats Item -->
+          </div>
 
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Events</p>
+           <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
+             <div class="service-card h-100" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.15); transition: all 0.4s ease; overflow: hidden; border: 1px solid rgba(255,255,255,0.1);">
+               <img src="assets/img/bn.jpg" class="img-fluid" alt="Banking & Finance Training" style="width: 100%; height: 250px; object-fit: cover;">
+               <div class="p-5" style="background: rgba(255,255,255,0.95);">
+                 <h4 class="text-center mb-4" style="font-weight: 700; font-size: 1.5rem; color: #333; font-family: 'Playfair Display', serif;">
+                   <i class="fas fa-university" style="color: #f093fb; margin-right: 10px;"></i>Banking & Finance
+                 </h4>
+                 <ul style="list-style: none; padding: 0;">
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">💼 Banking Operations</li>
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">💰 Financial Services</li>
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">👥 Customer Management</li>
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">📋 Compliance Training</li>
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">⚠️ Risk Management</li>
+                 </ul>
+                 <div class="text-center mt-4">
+                   <a href="tel:+917845095444" class="btn btn-success btn-lg" style="font-weight: 600; padding: 12px 30px; border-radius: 25px; box-shadow: 0 5px 15px rgba(40,167,69,0.3);">📞 Call for Details</a>
             </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Trainers</p>
+          </div>
             </div>
-          </div><!-- End Stats Item -->
+          </div>
 
+           <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+             <div class="service-card h-100" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.15); transition: all 0.4s ease; overflow: hidden; border: 1px solid rgba(255,255,255,0.1);">
+               <img src="assets/img/bpo.jpeg" class="img-fluid" alt="BPO & Call Center Training" style="width: 100%; height: 250px; object-fit: cover;">
+               <div class="p-5" style="background: rgba(255,255,255,0.95);">
+                 <h4 class="text-center mb-4" style="font-weight: 700; font-size: 1.5rem; color: #333; font-family: 'Playfair Display', serif;">
+                   <i class="fas fa-headset" style="color: #4facfe; margin-right: 10px;"></i>BPO & Call Center
+                 </h4>
+                 <ul style="list-style: none; padding: 0;">
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">🗣️ Communication Skills</li>
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">🎯 Customer Service</li>
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">🔧 Problem Solving</li>
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">⚙️ Process Management</li>
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">✅ Quality Assurance</li>
+                 </ul>
+                 <div class="text-center mt-4">
+                   <a href="tel:+917845095444" class="btn btn-warning btn-lg" style="font-weight: 600; padding: 12px 30px; border-radius: 25px; box-shadow: 0 5px 15px rgba(255,193,7,0.3);">📞 Call for Details</a>
+            </div>
+          </div>
+            </div>
+          </div>
+
+           <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="400">
+             <div class="service-card h-100" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.15); transition: all 0.4s ease; overflow: hidden; border: 1px solid rgba(255,255,255,0.1);">
+               <img src="assets/img/me.jpg" class="img-fluid" alt="Engineering Job Placement" style="width: 100%; height: 250px; object-fit: cover;">
+               <div class="p-5" style="background: rgba(255,255,255,0.95);">
+                 <h4 class="text-center mb-4" style="font-weight: 700; font-size: 1.5rem; color: #333; font-family: 'Playfair Display', serif;">
+                   <i class="fas fa-cogs" style="color: #43e97b; margin-right: 10px;"></i>Engineering Jobs
+                 </h4>
+                 <ul style="list-style: none; padding: 0;">
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">🔧 Mechanical Engineering</li>
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">⚡ Electrical Engineering</li>
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">🏭 Core Engineering Jobs</li>
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">📚 Technical Training</li>
+                   <li class="mb-3" style="font-size: 1.1rem; color: #555;">🏢 Industry Placement</li>
+                 </ul>
+                 <div class="text-center mt-4">
+                   <a href="tel:+917845095444" class="btn btn-info btn-lg" style="font-weight: 600; padding: 12px 30px; border-radius: 25px; box-shadow: 0 5px 15px rgba(23,162,184,0.3);">📞 Call for Details</a>
+                 </div>
+            </div>
+          </div>
+          </div>
+        </div>
+          </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="section why-us py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 style="font-size: 2.5rem; font-weight: 700; color: #333; margin-bottom: 20px;">
+            Why Choose Adithya IT Solutions (OPC) Pvt Ltd.?
+          </h2>
+          <p style="font-size: 1.2rem; color: #666; max-width: 600px; margin: 0 auto;">
+            We are your trusted partner for career transformation with proven results and industry expertise
+          </p>
         </div>
 
-      </div>
-
-    </section><!-- /Counts Section -->
-
-<!-- Why Us Section -->
-<section id="why-us" class="section why-us">
-
-    <div class="container">
-  
-      <div class="row gy-4">
-  
+        <div class="row g-4">
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-              <div class="why-box">
-                <h3>Why Choose Aadhitya IT Solutions?</h3>
-                <p>
-                  At Aadhitya IT Solutions Pvt. Ltd., we are dedicated to shaping your future. Our expert trainers, proven training methods, and strong industry partnerships empower you to gain the skills and confidence needed to succeed in your dream career. Whether you're aiming for a role in IT, banking, BPO, or engineering, we guide you with personalized support every step of the way. Our track record of successful placements speaks for itself – choose us as your trusted partner in achieving your professional goals!
-                </p>
-                <div class="text-center">
-                  <a href="#" class="more-btn"><span>Learn More</span> <i class="bi bi-chevron-right"></i></a>
-                </div>
+            <div class="why-card text-center p-4 h-100" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; color: white;">
+              <div class="icon-wrapper mb-4" style="width: 80px; height: 80px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
+                <i class="bi bi-clipboard-data" style="font-size: 2rem;"></i>
               </div>
-            </div><!-- End Why Box -->
-              
-  
-        <div class="col-lg-8 d-flex align-items-stretch">
-          <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
-  
-            <div class="col-xl-4">
-              <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                <i class="bi bi-clipboard-data"></i>
-                <h4>Industry-Expert Training</h4>
-                <p>Learn from top industry experts who provide real-world insights, ensuring you're job-ready from day one.</p>
+              <h4 style="font-weight: 600; margin-bottom: 15px;">Industry-Expert Training</h4>
+              <p style="opacity: 0.9;">Learn from top industry experts who provide real-world insights, ensuring you're job-ready from day one.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="why-card text-center p-4 h-100" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 15px; color: white;">
+              <div class="icon-wrapper mb-4" style="width: 80px; height: 80px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
+                <i class="bi bi-gem" style="font-size: 2rem;"></i>
               </div>
-            </div><!-- End Icon Box -->
-  
-            <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
-              <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                <i class="bi bi-gem"></i>
-                <h4>Guaranteed Placements</h4>
-                <p>We have established connections with leading companies, ensuring you access to exclusive job placement opportunities.</p>
+              <h4 style="font-weight: 600; margin-bottom: 15px;">Guaranteed Placements</h4>
+              <p style="opacity: 0.9;">We have established connections with leading companies, ensuring you access to exclusive job placement opportunities.</p>
+        </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="why-card text-center p-4 h-100" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 15px; color: white;">
+              <div class="icon-wrapper mb-4" style="width: 80px; height: 80px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
+                <i class="bi bi-inboxes" style="font-size: 2rem;"></i>
               </div>
-            </div><!-- End Icon Box -->
-  
-            <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
-              <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                <i class="bi bi-inboxes"></i>
-                <h4>Personalized Career Support</h4>
-                <p>From resume building to interview preparation, we offer personalized career support to help you stand out in the job market.</p>
-              </div>
-            </div><!-- End Icon Box -->
-  
-          </div>
+              <h4 style="font-weight: 600; margin-bottom: 15px;">Personalized Career Support</h4>
+              <p style="opacity: 0.9;">From resume building to interview preparation, we offer personalized career support to help you stand out in the job market.</p>
         </div>
-  
-      </div>
-  
-    </div>
-  
-  </section><!-- /Why Us Section -->
-  
-
-<!-- Features Section -->
-<section id="features" class="features section">
-
-    <div class="container">
-  
-      <div class="row gy-4">
-  
-        <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
-          <div class="features-item d-flex">
-            <div class="features-icon me-4">
-              <i class="bi bi-eye" style="color: #ffbb2c;"></i>
-            </div>
-            <div class="features-content">
-              <h3><a href="" class="stretched-link">Expert Trainers</a></h3>
-              <p>Learn from industry professionals who bring years of practical experience to your training.</p>
-            </div>
-          </div>
-        </div><!-- End Feature Item -->
-  
-        
-  
-        <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
-          <div class="features-item d-flex">
-            <div class="features-icon me-4">
-              <i class="bi bi-mortarboard" style="color: #e80368;"></i>
-            </div>
-            <div class="features-content">
-              <h3><a href="" class="stretched-link">Career Guidance</a></h3>
-              <p>Receive personalized career support, from resume building to interview preparation, to ensure your success.</p>
-            </div>
-          </div>
-        </div><!-- End Feature Item -->
-  
-        <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
-          <div class="features-item d-flex">
-            <div class="features-icon me-4">
-              <i class="bi bi-nut" style="color: #e361ff;"></i>
-            </div>
-            <div class="features-content">
-              <h3><a href="" class="stretched-link">Comprehensive Courses</a></h3>
-              <p>Our training programs cover everything you need to know, from basic skills to advanced techniques.</p>
-            </div>
-          </div>
-        </div><!-- End Feature Item -->
-  
-        <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="500">
-          <div class="features-item d-flex">
-            <div class="features-icon me-4">
-              <i class="bi bi-shuffle" style="color: #47aeff;"></i>
-            </div>
-            <div class="features-content">
-              <h3><a href="" class="stretched-link">Flexible Learning</a></h3>
-              <p>Take advantage of flexible class schedules and online learning options, so you can study at your own pace.</p>
-            </div>
-          </div>
-        </div><!-- End Feature Item -->
-  
-        <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="600">
-          <div class="features-item d-flex">
-            <div class="features-icon me-4">
-              <i class="bi bi-star" style="color: #ffa76e;"></i>
-            </div>
-            <div class="features-content">
-              <h3><a href="" class="stretched-link">Certification</a></h3>
-              <p>Earn valuable certifications that enhance your resume and increase your employability in the competitive job market.</p>
-            </div>
-          </div>
-        </div><!-- End Feature Item -->
-  
-        <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="700">
-          <div class="features-item d-flex">
-            <div class="features-icon me-4">
-              <i class="bi bi-x-diamond" style="color: #11dbcf;"></i>
-            </div>
-            <div class="features-content">
-              <h3><a href="" class="stretched-link">Job Placement Assistance</a></h3>
-              <p>Get assistance with job placements through our partnerships with leading companies in various sectors.</p>
-            </div>
-          </div>
-        </div><!-- End Feature Item -->
-  
-        <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="800">
-          <div class="features-item d-flex">
-            <div class="features-icon me-4">
-              <i class="bi bi-camera-video" style="color: #4233ff;"></i>
-            </div>
-            <div class="features-content">
-              <h3><a href="" class="stretched-link">Hands-On Projects</a></h3>
-              <p>Work on real-life projects to gain hands-on experience and showcase your skills to potential employers.</p>
-            </div>
-          </div>
-        </div><!-- End Feature Item -->
-  
-        <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="900">
-          <div class="features-item d-flex">
-            <div class="features-icon me-4">
-              <i class="bi bi-command" style="color: #b2904f;"></i>
-            </div>
-            <div class="features-content">
-              <h3><a href="" class="stretched-link">Dedicated Support</a></h3>
-              <p>Our support team is available to assist you at every stage of your learning journey, from admission to job placement.</p>
-            </div>
-          </div>
-        </div><!-- End Feature Item -->
-    
-      </div>
-  
-    </div>
-  
-  </section><!-- /Features Section -->
-  
-
-<!-- Courses Section -->
-<section id="courses" class="courses section">
-
-    <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Courses</h2>
-      <p>Popular Courses</p>
-    </div><!-- End Section Title -->
-  
-    <div class="container">
-  
-      <div class="row">
-  
-        <!-- Full Stack Development Course -->
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-          <div class="course-item">
-            <img src="assets/img/c1.png" class="img-fluid" alt="...">
-            <div class="course-content">
-              <h3><a href="course-details.html">Full Stack Web Development</a></h3>
-              <p class="description">Learn front-end and back-end development to build complete web applications using technologies like HTML, CSS, JavaScript, Node.js, and more.</p>
-            </div>
-          </div>
-        </div> <!-- End Full Stack Development Course -->
-  
-        <!-- Data Analysis Course -->
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-          <div class="course-item">
-            <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
-            <div class="course-content">
-              <h3><a href="course-details.html">Data Analysis with Python</a></h3>
-              <p class="description">Master data analysis using Python, learn how to manipulate, visualize, and analyze large datasets with libraries like Pandas and Matplotlib.</p>
-            </div>
-          </div>
-        </div> <!-- End Data Analysis Course -->
-  
-        <!-- Python Programming Course -->
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-          <div class="course-item">
-            <img src="assets/img/c2.jpg" class="img-fluid" alt="...">
-            <div class="course-content">
-              <h3><a href="course-details.html">Python Programming</a></h3>
-              <p class="description">Learn the fundamentals of Python programming, from basic syntax to advanced concepts such as object-oriented programming and data structures.</p>
-            </div>
-          </div>
-        </div> <!-- End Python Programming Course -->
-  
-        <!-- Java Programming Course -->
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="400">
-          <div class="course-item">
-            <img src="assets/img/java.jpg" class="img-fluid" alt="...">
-            <div class="course-content">
-              <h3><a href="course-details.html">Java Programming</a></h3>
-              <p class="description">Dive into Java programming, covering object-oriented concepts, data structures, and algorithms essential for building efficient Java applications.</p>
-            </div>
-          </div>
-        </div> <!-- End Java Programming Course -->
-  
-        <!-- AWS Cloud Computing Course -->
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="500">
-          <div class="course-item">
-            <img src="assets/img/aws.png" class="img-fluid" alt="...">
-            <div class="course-content">
-              <h3><a href="course-details.html">AWS Cloud Computing</a></h3>
-              <p class="description">Learn how to deploy and manage applications on AWS, including EC2, S3, Lambda, and CloudFormation for scalable cloud infrastructure.</p>
-            </div>
-          </div>
-        </div> <!-- End AWS Cloud Computing Course -->
-  
-        <!-- Machine Learning Course -->
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="600">
-          <div class="course-item">
-            <img src="assets/img/py.png" class="img-fluid" alt="...">
-            <div class="course-content">
-              <h3><a href="course-details.html">Machine Learning with Python</a></h3>
-              <p class="description">Get hands-on experience with machine learning algorithms, model evaluation, and data preprocessing using Python and popular libraries like Scikit-Learn.</p>
-            </div>
-          </div>
-        </div> <!-- End Machine Learning Course -->
-  
-        <!-- SQL & Database Management Course -->
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="700">
-          <div class="course-item">
-            <img src="assets/img/sq.png" class="img-fluid" alt="...">
-            <div class="course-content">
-              <h3><a href="course-details.html">SQL & Database Management</a></h3>
-              <p class="description">Master SQL for managing databases, including data querying, normalization, and optimization techniques for large-scale data systems.</p>
-            </div>
-          </div>
-        </div> <!-- End SQL & Database Management Course -->
-          <!-- Banking Course -->
-      <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-        <div class="course-item">
-          <img src="assets/img/bn.jpg" class="img-fluid" alt="...">
-          <div class="course-content">
-            <h3><a href="course-details.html">Banking and Finance</a></h3>
-            <p class="description">Gain expertise in the banking sector, including financial services, banking operations, and customer management.</p>
-          </div>
-        </div>
-      </div> <!-- End Banking Course -->
-
-      <!-- BPO (Call Center) Course -->
-      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-        <div class="course-item">
-          <img src="assets/img/bpo.jpeg" class="img-fluid" alt="...">
-          <div class="course-content">
-            <h3><a href="course-details.html">BPO (Call Center) Skills</a></h3>
-            <p class="description">Learn communication, problem-solving, and customer service skills essential for success in the BPO industry.</p>
-          </div>
-        </div>
-      </div> <!-- End BPO (Call Center) Course -->
-
-      <!-- HR (Human Resources) Course -->
-      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="400">
-        <div class="course-item">
-          <img src="assets/img/hr.jpg" class="img-fluid" alt="...">
-          <div class="course-content">
-            <h3><a href="course-details.html">Human Resources Management</a></h3>
-            <p class="description">Understand the fundamentals of HR, including recruitment, employee relations, and organizational behavior.</p>
-          </div>
-        </div>
-      </div> <!-- End HR Course -->
-
-      <!-- Core Mechanical Engineering Jobs Course -->
-      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="500">
-        <div class="course-item">
-          <img src="assets/img/me.jpg" class="img-fluid" alt="...">
-          <div class="course-content">
-            <h3><a href="course-details.html">Core Mechanical Engineering</a></h3>
-            <p class="description">Learn the essentials of mechanical engineering, including thermodynamics, materials science, and mechanical systems.</p>
-          </div>
-        </div>
-      </div> <!-- End Core Mechanical Engineering Course -->
-
-      <!-- Electrical Engineering Jobs Course -->
-      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="600">
-        <div class="course-item">
-          <img src="assets/img/ee.jpg" class="img-fluid" alt="...">
-          <div class="course-content">
-            <h3><a href="course-details.html">Electrical Engineering Jobs</a></h3>
-            <p class="description">Master electrical engineering concepts, including circuit design, power systems, and electrical troubleshooting.</p>
-          </div>
-        </div>
-      </div> <!-- End Electrical Engineering Course -->
-
-    </div>
-  
-      </div>
-  
-    </div>
-  
-  </section><!-- /Courses Section -->
-  <!-- Add this Modal Form at the end of the <body> -->
-    <div id="studentFormModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Student Details</h5>
-            </div>
-            <div class="modal-body">
-              <form id="studentForm" action="send_details.php" method="POST">
-                <div class="mb-3">
-                  <label for="studentName" class="form-label">Name</label>
-                  <input type="text" class="form-control" id="studentName" name="name" placeholder="Enter your name" required>
-                </div>
-                <div class="mb-3">
-                  <label for="studentMobile" class="form-label">Mobile</label>
-                  <input type="tel" class="form-control" id="studentMobile" name="mobile" placeholder="Enter your mobile" required>
-                </div>
-                <div class="mb-3">
-                  <label for="studentEmail" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="studentEmail" name="email" placeholder="Enter your email" required>
-                </div>
-                <button type="submit" class="btn btn-primary w-100">Submit</button>
-              </form>
-            </div>
           </div>
         </div>
       </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="py-5" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-8">
+            <h2 style="font-size: 2.5rem; font-weight: 700; color: white; margin-bottom: 20px;">
+              Ready to Transform Your Career?
+            </h2>
+            <p style="font-size: 1.2rem; color: rgba(255,255,255,0.9); margin-bottom: 30px;">
+              Don't wait! Call our HR team directly for immediate assistance with training and placement opportunities.
+            </p>
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+              <a href="tel:+917845095444" class="btn btn-light btn-lg" style="font-weight: 600; padding: 15px 30px; border-radius: 50px;">
+                📞 Call HR: +91 7845095444
+              </a>
+              <a href="mailto:uniquekalai193@gmail.com" class="btn btn-outline-light btn-lg" style="font-weight: 600; padding: 15px 30px; border-radius: 50px;">
+                ✉️ Email for Quick Response
+              </a>
+            </div>
+            <p style="color: rgba(255,255,255,0.8); margin-top: 20px; font-size: 0.9rem;">
+              <strong>Note:</strong> For immediate response, call directly. Email responses within 2 hours.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
-      <script>
-        document.addEventListener("DOMContentLoaded", function () {
-          const studentFormModal = new bootstrap.Modal(document.getElementById('studentFormModal'));
-          studentFormModal.show();
-      
-          document.getElementById('studentForm').addEventListener('submit', function (e) {
-            e.preventDefault();
-      
-            const formData = new FormData(this);
-      
-            fetch(this.action, {
-              method: "POST",
-              body: formData,
-            })
-              .then(response => response.text())
-              .then(data => {
-                if (data.trim() === "success") {
-                  studentFormModal.hide();
-                } else {
-                  alert("Error submitting the form. Please try again.\n" + data);
-                }
-              })
-              .catch(error => console.error("Error:", error));
-          });
-        });
-      </script>
-      
-    
 
   <footer id="footer" class="footer position-relative light-background">
 
     <div class="container footer-top">
       <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
+        <div class="col-lg-6 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Adithya IT Solutions.</span>
+            <span class="sitename">Adithya IT Solutions (OPC) Pvt Ltd.</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <p style="font-size: 16px; font-weight: 500;">📍 235/5 Ans Dhivyam opposite narasothipatti</p>
+            <p style="font-size: 16px; font-weight: 500;">Salem 636004, Tamil Nadu</p>
+            <a href="tel:+917845095444" style="text-decoration: none;">
+              <p class="mt-3" style="font-size: 18px; font-weight: 600; color: #007bff;">📞 +91 7845095444‬</p>
+            </a>
+            <p style="font-size: 16px; font-weight: 500;">✉️ uniquekalai193@gmail.com</p>
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+        <div class="col-lg-6 col-md-6 footer-about">
+          <h4 style="color: #333; margin-bottom: 20px;">Training & Placement Services</h4>
+          <ul style="list-style: none; padding: 0;">
+            <li style="margin-bottom: 10px;">✅ IT Jobs Training & Placement</li>
+            <li style="margin-bottom: 10px;">✅ Banking & Finance Training</li>
+            <li style="margin-bottom: 10px;">✅ BPO & Call Center Training</li>
+            <li style="margin-bottom: 10px;">✅ HR Management Training</li>
+            <li style="margin-bottom: 10px;">✅ Engineering Job Placement</li>
           </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4>Our Newsletter</h4>
-          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
         </div>
 
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Adithya IT Solutions.</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">Kruthick</a>
-      </div>
+      <p style="font-size: 14px; color: #666;">© 2024 <strong class="px-1 sitename">Adithya IT Solutions (OPC) Pvt Ltd.</strong> - Training & Placement Consultancy. All Rights Reserved.</p>
     </div>
 
   </footer>
@@ -623,6 +746,308 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Student Form Modal -->
+  <div class="modal fade" id="studentFormModal" tabindex="-1" aria-labelledby="studentFormModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content" style="border-radius: 25px; border: none; box-shadow: 0 30px 60px rgba(0,0,0,0.15); overflow: hidden;">
+        <div class="modal-header" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; padding: 25px; position: relative;">
+          <div class="text-center w-100">
+            <i class="fas fa-graduation-cap" style="font-size: 2.5rem; color: #FFD700; margin-bottom: 12px; display: block;"></i>
+            <h5 class="modal-title" id="studentFormModalLabel" style="font-weight: 800; font-size: 1.6rem; font-family: 'Playfair Display', serif; margin: 0; color: #FFD700;">Welcome to Adithya IT Solutions</h5>
+            <p style="margin: 10px 0 0 0; opacity: 0.9; font-weight: 300;">Please provide your details to get a call back from us and access contact details</p>
+          </div>
+        </div>
+        <div class="modal-body p-4" style="background: #f8f9fa;">
+          <form id="studentForm" action="send_details.php" method="POST">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="name" class="form-label" style="font-weight: 700; color: #333; font-family: 'Inter', sans-serif;">
+                  <i class="fas fa-user" style="color: #667eea; margin-right: 8px;"></i>Full Name *
+                </label>
+                <input type="text" class="form-control" id="name" name="name" required style="border-radius: 15px; border: 2px solid #e9ecef; padding: 12px; font-size: 1rem; transition: all 0.3s ease; background: white;">
+                <div class="invalid-feedback">Please enter your full name.</div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="mobile" class="form-label" style="font-weight: 700; color: #333; font-family: 'Inter', sans-serif;">
+                  <i class="fas fa-phone" style="color: #667eea; margin-right: 8px;"></i>Mobile Number *
+                </label>
+                <input type="tel" class="form-control" id="mobile" name="mobile" required pattern="[0-9]{10}" maxlength="10" style="border-radius: 15px; border: 2px solid #e9ecef; padding: 12px; font-size: 1rem; transition: all 0.3s ease; background: white;">
+                <div class="invalid-feedback">Please enter a valid 10-digit mobile number.</div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label" style="font-weight: 700; color: #333; font-family: 'Inter', sans-serif;">
+                <i class="fas fa-envelope" style="color: #667eea; margin-right: 8px;"></i>Email Address *
+              </label>
+              <input type="email" class="form-control" id="email" name="email" required style="border-radius: 15px; border: 2px solid #e9ecef; padding: 12px; font-size: 1rem; transition: all 0.3s ease; background: white;">
+              <div class="invalid-feedback">Please enter a valid email address.</div>
+            </div>
+            <div class="mb-3">
+              <label for="interest" class="form-label" style="font-weight: 700; color: #333; font-family: 'Inter', sans-serif;">
+                <i class="fas fa-bullseye" style="color: #667eea; margin-right: 8px;"></i>Area of Interest
+              </label>
+              <select class="form-select" id="interest" name="interest" style="border-radius: 15px; border: 2px solid #e9ecef; padding: 12px; font-size: 1rem; transition: all 0.3s ease; background: white;">
+                <option value="">Select your interest</option>
+                <option value="IT Jobs Training">IT Jobs Training</option>
+                <option value="Banking & Finance">Banking & Finance</option>
+                <option value="BPO & Call Center">BPO & Call Center</option>
+                <option value="Engineering Jobs">Engineering Jobs</option>
+              </select>
+            </div>
+            <div class="text-center mt-4">
+              <button type="submit" id="submitBtn" class="btn btn-primary btn-lg" style="font-weight: 700; padding: 15px 40px; border-radius: 30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border: none; box-shadow: 0 10px 25px rgba(102,126,234,0.3); font-size: 1rem; transition: all 0.3s ease;">
+                <i class="fas fa-paper-plane" id="submitIcon" style="margin-right: 10px;"></i>
+                <span id="submitText">Submit & Access Website</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Form Submission Script -->
+  <script>
+    // Check if user has already submitted form
+    let formSubmitted = localStorage.getItem('formSubmitted');
+    
+    // Debug: Log the form submission status
+    console.log('Form submitted status:', formSubmitted);
+    
+    // For testing: Clear localStorage to force form display
+    localStorage.removeItem('formSubmitted');
+    formSubmitted = null;
+    
+    // Mobile number validation
+    document.getElementById('mobile').addEventListener('input', function(e) {
+      let value = e.target.value.replace(/\D/g, ''); // Remove non-digits
+      if (value.length > 10) value = value.slice(0, 10); // Limit to 10 digits
+      e.target.value = value;
+      
+      // Validate mobile number
+      if (value.length === 10 && /^[6-9]\d{9}$/.test(value)) {
+        e.target.classList.remove('is-invalid');
+        e.target.classList.add('is-valid');
+      } else if (value.length > 0) {
+        e.target.classList.remove('is-valid');
+        e.target.classList.add('is-invalid');
+      } else {
+        e.target.classList.remove('is-valid', 'is-invalid');
+      }
+    });
+
+    // Form validation and submission
+    document.getElementById('studentForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // Get submit button and elements
+      const submitBtn = document.getElementById('submitBtn');
+      const submitIcon = document.getElementById('submitIcon');
+      const submitText = document.getElementById('submitText');
+      
+      // Check if already submitting
+      if (submitBtn.disabled) {
+        return;
+      }
+      
+      // Validate form
+      const name = document.getElementById('name').value.trim();
+      const mobile = document.getElementById('mobile').value.trim();
+      const email = document.getElementById('email').value.trim();
+      
+      let isValid = true;
+      
+      // Name validation
+      if (name.length < 2) {
+        document.getElementById('name').classList.add('is-invalid');
+        isValid = false;
+      } else {
+        document.getElementById('name').classList.remove('is-invalid');
+        document.getElementById('name').classList.add('is-valid');
+      }
+      
+      // Mobile validation
+      if (!/^[6-9]\d{9}$/.test(mobile)) {
+        document.getElementById('mobile').classList.add('is-invalid');
+        isValid = false;
+      } else {
+        document.getElementById('mobile').classList.remove('is-invalid');
+        document.getElementById('mobile').classList.add('is-valid');
+      }
+      
+      // Email validation
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        document.getElementById('email').classList.add('is-invalid');
+        isValid = false;
+      } else {
+        document.getElementById('email').classList.remove('is-invalid');
+        document.getElementById('email').classList.add('is-valid');
+      }
+      
+      if (!isValid) {
+        // Show error toast instead of alert
+        showToast('❌ Please fill all required fields correctly.', 'error');
+        return;
+      }
+      
+      // Show spinner and disable button
+      submitBtn.disabled = true;
+      submitIcon.className = 'fas fa-spinner spinner';
+      submitText.textContent = 'Submitting...';
+      
+      const formData = new FormData(this);
+      
+      fetch('send_details.php', {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => response.text())
+                      .then(data => {
+          if (data === 'success') {
+            // Store that form has been submitted
+            localStorage.setItem('formSubmitted', 'true');
+            formSubmitted = true;
+            
+            // Reset form
+            document.getElementById('studentForm').reset();
+            
+            // Reset button state
+            submitBtn.disabled = false;
+            submitIcon.className = 'fas fa-paper-plane';
+            submitText.textContent = 'Submit & Access Website';
+            
+            // Hide modal first
+            const modal = bootstrap.Modal.getInstance(document.getElementById('studentFormModal'));
+            modal.hide();
+            
+            // Listen for modal hidden event
+            document.getElementById('studentFormModal').addEventListener('hidden.bs.modal', function() {
+              // Enable scrolling and show content
+              document.body.style.overflow = 'auto';
+              document.querySelector('.main').style.display = 'block';
+              
+              // Unblur the entire site
+              const mainContent = document.getElementById('mainContent');
+              mainContent.classList.remove('site-blur');
+              mainContent.classList.add('site-unblur');
+              
+              // Show success toast
+              showToast('✅ Welcome to Adithya IT Solutions! Your details have been submitted successfully.', 'success');
+              
+              // Scroll to top of page
+              window.scrollTo(0, 0);
+              
+              // Remove the event listener to prevent multiple calls
+              this.removeEventListener('hidden.bs.modal', arguments.callee);
+            }, { once: true });
+            
+            // Fallback: Enable scrolling after 1 second if modal event doesn't fire
+            setTimeout(function() {
+              if (document.body.style.overflow === 'hidden') {
+                document.body.style.overflow = 'auto';
+                document.querySelector('.main').style.display = 'block';
+                const mainContent = document.getElementById('mainContent');
+                mainContent.classList.remove('site-blur');
+                mainContent.classList.add('site-unblur');
+              }
+            }, 1000);
+          } else {
+            // Reset button state on error
+            submitBtn.disabled = false;
+            submitIcon.className = 'fas fa-paper-plane';
+            submitText.textContent = 'Submit & Access Website';
+            showToast('❌ Sorry, there was an error submitting your details. Please try again or call us directly.', 'error');
+          }
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          // Reset button state on error
+          submitBtn.disabled = false;
+          submitIcon.className = 'fas fa-paper-plane';
+          submitText.textContent = 'Submit & Access Website';
+          showToast('❌ Sorry, there was an error submitting your details. Please try again or call us directly.', 'error');
+        });
+    });
+
+    // Show modal immediately and disable scrolling until form is submitted
+    document.addEventListener('DOMContentLoaded', function() {
+      console.log('DOMContentLoaded - Form submitted:', formSubmitted);
+      console.log('Form submitted type:', typeof formSubmitted);
+      console.log('Form submitted value:', formSubmitted);
+      
+      if (!formSubmitted) {
+        console.log('Showing modal - form not submitted');
+        // Hide main content and disable scrolling
+        document.querySelector('.main').style.display = 'none';
+        document.body.style.overflow = 'hidden';
+        
+        // Show modal immediately
+        const modal = new bootstrap.Modal(document.getElementById('studentFormModal'));
+        modal.show();
+      } else {
+        console.log('Showing content - form already submitted');
+        // If form was already submitted, show content and enable scrolling
+        document.querySelector('.main').style.display = 'block';
+        document.body.style.overflow = 'auto';
+        
+        // Unblur the entire site for returning users
+        const mainContent = document.getElementById('mainContent');
+        mainContent.classList.remove('site-blur');
+        mainContent.classList.add('site-unblur');
+      }
+      
+      // Fallback: Ensure content is visible after 5 seconds (in case of issues)
+      setTimeout(function() {
+        if (document.querySelector('.main').style.display === 'none') {
+          document.querySelector('.main').style.display = 'block';
+          document.body.style.overflow = 'auto';
+          const mainContent = document.getElementById('mainContent');
+          mainContent.classList.remove('site-blur');
+          mainContent.classList.add('site-unblur');
+        }
+      }, 5000);
+    });
+    
+    // Toast notification function
+    function showToast(message, type) {
+      const toast = document.getElementById('successToast');
+      const toastText = toast.querySelector('span');
+      const toastIcon = toast.querySelector('.toast-icon');
+      
+      // Update toast content
+      toastText.textContent = message;
+      
+      // Update icon and styling based on type
+      if (type === 'error') {
+        toast.style.background = 'linear-gradient(135deg, #dc3545 0%, #c82333 100%)';
+        toastIcon.className = 'fas fa-exclamation-circle toast-icon';
+      } else {
+        toast.style.background = 'linear-gradient(135deg, #28a745 0%, #20c997 100%)';
+        toastIcon.className = 'fas fa-check-circle toast-icon';
+      }
+      
+      // Show toast
+      toast.style.display = 'block';
+      toast.classList.add('show');
+      
+      // Hide toast after 4 seconds
+      setTimeout(function() {
+        toast.classList.remove('show');
+        setTimeout(function() {
+          toast.style.display = 'none';
+        }, 500);
+      }, 4000);
+    }
+  </script>
+
+  <!-- Success Toast -->
+  <div class="success-toast" id="successToast">
+    <div class="d-flex align-items-center">
+      <i class="fas fa-check-circle toast-icon"></i>
+      <span></span>
+    </div>
+  </div>
 
 </body>
 
